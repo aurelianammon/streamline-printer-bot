@@ -150,10 +150,10 @@ function runProgress(id) {
 
 async function loop() {
     // THE DELAY DEFINES THE TIME TO WAIT FOR THE NEXT QUESTION
-    var delay = 30 // <------------ HERE
+    var delay = Math.floor(Math.random() * (45 - 15) ) + 15; // <------------ HERE
     const data = await storage.getItem('chat_list')
     data.forEach(runProgress)
-    setTimeout(loop, delay * 1000);
+    setTimeout(loop, delay * 60000); // 60000 for minutes and 1000 for seconds
 }
 
 // THIS IS THE LIST OF QUESTIONS, ASKED IN RANDOM ORDER
