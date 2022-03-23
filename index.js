@@ -1,3 +1,5 @@
+// type 'npm run start' in terminal to start the bot
+
 require('dotenv').config()
 const cors = require('cors')
 const aposToLexForm = require('apos-to-lex-form');
