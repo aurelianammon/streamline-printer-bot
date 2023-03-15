@@ -16,7 +16,7 @@ To get the software running, download the repository and open it with the eitor 
 
 Move to telegram and create a bot with the help of [@BotFather]((https://core.telegram.org/bots/features#creating-a-new-bot)). Recieve your token and paste it into the .env file.
 
-    BOT_TOKEN="PERSONAL_TOKEN_HERE"
+    BOT_TOKEN=PERSONAL_TOKEN_HERE
 
 Navigate to the project in your terminal and install the dependencies.
 
