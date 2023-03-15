@@ -1,6 +1,6 @@
 # Streamline Printer Bot
 
-The Streamline Printer Bot was developed to work together with the following [Printer Controller](https://github.com/aurelianammon/flask-socketio-printer).
+The Streamline Printer Bot was developed to work together with the following [Printer Controller](https://github.com/aurelianammon/flask-socketio-printer). The Bot and the Controller have to run on the same computer to get a working connection.
 
 ## Getting Started
 
